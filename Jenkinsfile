@@ -16,7 +16,8 @@ pipeline {
 
         stage('Run Script') {
             steps {
-                bat 'python process.py'
+                 bat '"C:\\Users\\Cheluvanth\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" process.py'
+    
             }
         }
 
