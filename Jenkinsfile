@@ -16,7 +16,7 @@ pipeline {
 
         stage('Run Script') {
             steps {
-                bat 'python3 process.py'
+                bat 'python process.py'
             }
         }
 
